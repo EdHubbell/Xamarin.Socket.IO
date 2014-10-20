@@ -46,7 +46,7 @@ namespace Socket.IO.Android.Test
 
 			// TODO: For testing Android, the host is the IP address of my emulator
 			//	Some have suggested using 10.0.2.2 - the special alias for loopback to localhost
-			Socket = new SocketIO (host : "192.168.56.1", port : 3000);
+			Socket = new SocketIO (host : "127.0.0.1", port : 3000);
 
 			Socket.On ("news_response", (data) => Console.WriteLine(data["hello"]));
 		}

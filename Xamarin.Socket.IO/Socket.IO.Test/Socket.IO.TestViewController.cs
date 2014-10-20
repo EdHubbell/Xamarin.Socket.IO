@@ -48,6 +48,16 @@ namespace Socket.IO.Test
 				Debug.WriteLine (data ["hello"]);
 			});
 
+			Socket.On ("message", (data) => {               //call this lambda when a message named "MessageReceived"
+				Console.WriteLine ("holy shit");
+				Console.WriteLine (data ["jsonFieldName"]);     //is emitted from the server
+			});
+
+			Socket.On ("", (data) => {               //call this lambda when a message named "MessageReceived"
+				Console.WriteLine ("holy shit");
+				Console.WriteLine (data ["jsonFieldName"]);     //is emitted from the server
+			});
+
 			var connectButton = new UIButton () {
 				Frame = new RectangleF (0, 0, View.Bounds.Width / 4, 44),
 				BackgroundColor =  UIColor.Gray

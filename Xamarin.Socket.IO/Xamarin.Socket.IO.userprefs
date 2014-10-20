@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.8.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Xamarin.Socket.IO/SocketIO.cs">
+    <Files>
+      <File FileName="Xamarin.Socket.IO/SocketIO.cs" Line="1" Column="1" />
+      <File FileName="Socket.IO.Test/Socket.IO.TestViewController.cs" Line="1" Column="1" />
+      <File FileName="Xamarin.Socket.IO/MessageID.cs" Line="1" Column="1" />
+      <File FileName="Xamarin.Socket.IO/Message.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../truxieXamarin/truxie.Shared/Models/TruckTweet.cs" line="41" offsetX="466" offsetY="600" expression="ticks" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
